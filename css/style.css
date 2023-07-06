@@ -247,8 +247,23 @@
 #footer {
     display: flex;
     align-items: center;
-    margin: 40px;
+    flex-direction: column;
+    margin: 60px;
 
+}
+#footer img {
+    max-width: 30px;
+    max-height: 30px;
+    
+}
+#footerlogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#copyright {
+    margin: 0px;
 }
 
 p {
