@@ -305,3 +305,32 @@ a {
         margin: auto auto;
       }
 }
+
+@media only screen and (max-width: 800px) {
+    #headerNavigation {
+        flex-direction: column;
+    }
+
+    #navigation {
+        flex-direction: column;
+        align-items: center;
+    }
+    #callus {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+      }
+    #article {
+        flex-basis: 70%;
+        flex-grow: 0;
+        margin: auto auto;
+      }
+
+    #boxform {
+        margin: auto auto;
+        border-radius: 5px;
+      }
+      #package {
+        margin: auto auto;
+      }
+}

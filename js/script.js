@@ -24,7 +24,7 @@ function nameValidation(vname, vemail, vopsi) {
 var slideIndex = 1
 setInterval(function(){
     plusDiv(1)
-}, 2000)
+}, 3000)
 function plusDiv(index) {
     showImage(slideIndex += index)
 }
